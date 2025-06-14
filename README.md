@@ -1,7 +1,7 @@
  # Sistema Bancário Java - Simulador de Operações Financeiras 💰🤖
 
 ## 📌 **Sobre o Projeto**  
-Sistema Bancário Java é um projeto de exemplo desenvolvido para simular as principais operações de uma conta bancária. A aplicação demonstra, de forma prática, o cadastro de clientes, a criação de contas e operações financeiras como depósito, saque, compra com cashback e consulta de extrato, utilizando os conceitos da programação orientada a objetos.
+Sistema Bancário Java é um projeto de exemplo desenvolvido para simular as principais operações de uma conta bancária como forma de avaliação A3 na faculdade Anhembi Morumbi. A aplicação demonstra, de forma prática, o cadastro de clientes, a criação de contas e operações financeiras como depósito, saque, compra com cashback e consulta de extrato, utilizando os conceitos da programação orientada a objetos.
 
 ## 🛠️ **Ferramentas Utilizadas**  
 - **Java:** Linguagem de programação utilizada para o desenvolvimento do sistema.  
