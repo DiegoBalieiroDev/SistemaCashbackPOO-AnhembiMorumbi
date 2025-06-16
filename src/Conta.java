@@ -44,12 +44,15 @@ public class Conta {
         transacoes.add(transacao);
         System.out.println("Depósito de R$: " + valor + " realizado com sucesso.\nSaldo atual: " + saldo);
     }
-
+    
+    // Metodo para realizar saques
     public void realizarSaque(double valor){
+        // Se o saldo for menor que o valor é negado o saque
         if (valor > saldo) {
             System.out.println("Não é possível sacar um valor superior ao saldo da conta.");
             return;
         }
+        // Caso o saldo seja o suficiente para o saque é debitado da conta o valor é criado um objeto da classe Transacao e adicionado a lista de transacoes da conta
         saldo -= valor;
         Transacao transacao = new Transacao(valor, TipoTransacao.SAQUE);
         transacoes.add(transacao);
